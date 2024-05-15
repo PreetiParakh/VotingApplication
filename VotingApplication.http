@@ -1,0 +1,6 @@
+@VotingApplication_HostAddress = http://localhost:5216
+
+GET {{VotingApplication_HostAddress}}/api/
+Accept: application/json
+
+###
