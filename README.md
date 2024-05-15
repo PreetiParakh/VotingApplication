@@ -1,6 +1,6 @@
 # VotingApplication
 
-**Voting App ASP.NET Web API README**
+**Voting App ASP.NET Web API**
 
 **Description:**
 The Voting App ASP.NET Web API project serves as the backend service for a voting application. It provides endpoints for adding candidates, casting votes, and retrieving voting results. This project is designed to be consumed by frontend applications such as web or mobile clients.
@@ -25,7 +25,7 @@ The Voting App ASP.NET Web API project serves as the backend service for a votin
 - **POST /api/Candidates**: Adds a new candidate.
 - **GET /api/Voters**: Retrieves the list of voters.
 - **POST /api/Voters**: Adds a new voter.
-- **POST /api/VoteCandidates/vote/{voterId}/{candidateId}**: Retrieves voting results.
+- **POST /api/VoteCandidates/vote/{voterId}/{candidateId}**: Cast a Vote.
 
 **Contributing:**
 Contributions to the project are welcome. If you have any suggestions, improvements, or bug fixes, feel free to submit a pull request.
